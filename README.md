@@ -1,2 +1,2 @@
 # release-utils
-ricoh dataops release utils.
+dataops release utils.
