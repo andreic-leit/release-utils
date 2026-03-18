@@ -7,8 +7,12 @@
 <!-- Link the ServiceNow story or ticket. -->
 STRYXXXXXXX
 
-## Breaking Changes
-<!-- If none, write: None -->
+## Higher Environment Deployment Changes commands
+<!-- any dbt commands, or sql commands 
+```bash 
+ dbt build --full-refresh --select <model name>
+```
+-->
 
 ## Risk and Rollback
 <!-- Describe deployment risk and rollback plan. -->
@@ -33,6 +37,13 @@ I have:
 - [ ] Added relevant documentation
 - [ ] Commented my code, especially in hard-to-understand areas
 
+## Type of Change
+
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Documentation update
+- [ ] Refactoring / code cleanup
 
 <!--  Semantic PR Use semantic PR format:
 
